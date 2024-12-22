@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Online Registration Form</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+<div class="form-container">
+<h2>Online Registration Form</h2>
+<form id="registrationForm" method="POST" action="submit.php">
+<label for="name">Full Name:</label>
+<input type="text" id="name" name="name" required>
+
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required>
+
+<label for="phone">Phone Number:</label>
+<input type="tel" id="phone" name="phone" required>
+
+<label for="gender">Gender:</label>
+<select id="gender" name="gender">
+<option value="Male">Male</option>
+<option value="Female">Female</option>
+<option value="Other">Other</option>
+</select>
+
+<label for="address">Address:</label>
+<textarea id="address" name="address" rows="4" required></textarea>
+
+<button type="submit" id="submitBtn">Submit</button>
+</form>
+</div>
+
+<div class="result-container" id="result" style="display:none;">
+<h2>Form Submission Successful</h2>
+<div id="resultContent"></div>
+<button id="newEntryBtn">Submit Another Entry</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

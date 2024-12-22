@@ -1,0 +1,91 @@
+/* Global Styles */
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #f5f7fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Form Container */
+.form-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    width: 400px;
+    text-align: left;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+/* Labels and Inputs */
+label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+    color: #555;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+/* Button Styles */
+button {
+    background-color: #5a67d8;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #4c51bf;
+}
+
+/* Result Container */
+.result-container {
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    width: 400px;
+    display: none;
+}
+
+#resultContent p {
+    font-size: 16px;
+    color: #555;
+    text-align: left;
+    margin: 5px 0;
+}
+
+#newEntryBtn {
+    background-color: #48bb78;
+    color: white;
+    margin-top: 20px;
+}
+
+#newEntryBtn:hover {
+    background-color: #38a169;
+}
